@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Best Shot! </title>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+<style>
+body, html{
+height:100%;
+margin:0;
+}
+
+
+.header{
+width: 100%;
+height: 110px;
+display: flex;
+background-color: #101010;
+
+
+}
+
+.dropbtn {
+height: 5px;
+width: 35px;
+background-color:#F47906;
+display: flex;
+flex-wrap: wrap;
+vertical-align: middle;
+cursor: pointer;
+margin: 6px 12px;
+
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top:25px;
+   margin-left:25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size:14px;
+  margin-top:25px;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  cursor:pointer;
+}
+
+.dropdown-content a:hover {background-color: #F47906}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor:pointer;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.inner_header{
+width: 1000px;
+height: 100%;
+display: flex;
+margin: 0 auto;
+color:white;
+}
+
+.logo_container{
+height: 100%;
+width: 1000px;
+display: table;
+float: left;
+}
+.logo_container h1{
+color: white;
+height: 100%;
+display: table-cell;
+font-weight:300;
+vertical-align: middle;
+font-family: "Times New Roman", "Garamond", Serif;
+font-size: 60px;
+}
+.logo_container h1 span{
+font-weight:800;
+background-color:#F47906  ;
+color:black;
+}
+.navigation{
+float: right;
+height:100%;
+}
+.navigation a{
+height:100%;
+display:table;
+float:left;
+padding: 0px 20px;
+vertical-align: middle;
+text-decoration: none;
+
+}
+.navigation a:last-child{
+padding-right:0;
+}
+.navigation a li{
+display: table-cell;
+vertical-align: middle;
+height: 50px;
+color:white;
+font-family: "Lucida Console", "Courier New", monospace;
+font-size:20px;
+cursor: pointer;
+
+}
+.active, .navigation a li:hover {
+background: gray;
+border-radius: 3px;
+
+}
+.navigation .fa{
+margin-right: 8px;
+}
+.menu-1 {
+display: none;
+
+}
+.navigation a li:hover .menu-1 {
+display: block;
+position:absolute;
+background:block;
+margin-top:15px;
+margin-left: -15px;
+
+}
+.bg-image{
+text-align:center;
+background-image: url("awts.jpg");
+height:105%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Click{
+height: 100%;
+width:800px;
+display:flex;
+margin:auto;
+vertical-align: middle;
+
+}
+.Click a:last-child{
+padding-right:0;
+}
+
+.Click a{
+height: 10%;
+width:500px;
+display:table-cell;
+margin:  auto;
+vertical-align:middle;
+float: right;
+padding: 0px 20px;
+text-decoration: none;
+}
+
+.Click a button{
+  background-color: #F47906;
+  border: none;
+  color: block;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+font-family: "Lucida Console", "Courier New", monospace;
+font-size:20px;
+border-radius: 13px;
+
+}
+footer {
+margin-top: 1px;
+ height: auto;
+  width: 100%;
+   position: absolute;
+   background-color:black;
+}
+footer img{
+  height: 60px;
+  cursor: pointer;
+  margin:10px 10px 5px 10px;
+  margin-bottom: 0;
+  
+
+}
+
+.footer_img {
+  display: block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+   
+}
+  footer .footer_img img:hover {
+      transform: translateY(-4px);  
+   box-shadow: 0px 10px 10px 10px #E36502 ;
+   border-radius: 15px;
+      }
+       footer .footer_img img:hover {
+        opacity: 70%;
+       }
+
+</style>
+
+
+</head>
+<body>
+
+	<div class="header">
+	
+<div class="dropdown">
+ 	 <div class="dropbtn"></div>
+	<div class="dropbtn"></div>
+	<div class="dropbtn"></div>
+
+
+  <div class="dropdown-content">
+  <a href="file:///C:/Users/dave/Desktop/my%20website/project.html">About me!</a>
+ <a target="_blank"  href="https://www.google.com/search?q=youtube+toturial+in+html&oq=youtube+toturial+in+html&aqs=chrome..69i57j0i22i30l2j69i64.8383j0j7&sourceid=chrome&ie=UTF-8">Watch for free</a>
+ <a target="_blank"  href="https://livetutoronline.com.au/"><span style="color: red;">Watch Live!<span></a>
+  </div>
+</div>
+		<div class="inner_header">
+		
+	
+		<div class="logo_container">
+				<h1>Ricabo<span>MAIN</span></h1>
+		
+			<ul class="navigation">	
+						
+				<a href="file:///C:/Users/dave/Desktop/my%20website/header.html"><li class="active"><i class="fas fa-home"></i>Home</li></a>
+				<a href="file:///C:/Users/dave/Desktop/my%20website/project.html"><li><i class="fas fa-user"></i>About</li></a>
+				<a href="#"><li><i class="fas fa-id-card-alt"></i>Contact</li></a>
+				<a href="file:///C:/Users/dave/Desktop/my%20website/projects/project.html"><li><i class="fas fa-compact-disc"></i>Albums</li></a>
+			</ul>
+	
+		   </diV>
+	
+		</div>
+	</div>
+<div class="bg-image">
+	<div class="Click">
+	<a href="file:///C:/Users/dave/Desktop/my%20website/Forms/Forms.html"><button>  Register</button></a>
+	<a href="file:///C:/Users/dave/Desktop/my%20website/My%20mp3%20Website/MY.html"><button>Playlist</button></a>
+	<a href="file:///C:/Users/dave/Desktop/my%20website/Join%20US/joinus.html"><button>Join Us!</button>
+	</a><br>
+	</div>	
+<footer>
+<p style="position:center; color: white; font-size:25px; font-family: "Lucida Console", "Courier New", monospace; ">Contact us on:</p>
+    <div class="footer_img">
+	
+        
+    <a target="_blank" href="https://www.facebook.com/?_rdc=2&_rdr"><img src="fb_dark.png"></a>
+    
+    <a target="_blank" href="https://mail.google.com/mail/u/1/#inbox"><img src="orange.jpg"></a>
+
+
+</div>
+<p style="position:center; color: white; font-size:25px; font-family: "Lucida Console", "Courier New", monospace; ">@2021-2022</p>
+</footer>
+
+</div>
+</body>
+</html>
+
+

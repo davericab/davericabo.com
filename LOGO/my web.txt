@@ -1,0 +1,35 @@
+<div style="background-image:url('dont_giveup.jpg');"> 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ricabo Website</title>
+</head>
+<body style="background-color:#B6B4A6;"style="background-image:url('dont_giveup.jpg');">
+<h1 style="text-align:center;font-size:60px;">Don't Give Up!</h1>
+<p style="font-size:x-large;">This website is all about how to be strong. Just read the message below.
+</p>
+You need is Stop overthinking and believe in God that you can make it through Prayer and believe in yourself<br>
+Always belive that you can make it<br>
+Dontbe afraid<br>
+Be in yourself<br>
+Love your Family<br>
+Love your enemy<br>
+You are Strong<br>
+Stay Strong<br>
+I know you can make it through your hardwork<br>
+Don't Surrender<br>
+Always believe in God<br>
+<br>
+<br>
+<br>
+<br>
+<a href="https://nevergiveup.org"><button style="color:blue;border-radius:30px;">Click ME!</button></a><br>
+<marquee>=========================================
+<img src="never_giveup.jpg" alt="dave" width="600" height="300">
+<marquee>=========================================
+
+
+
+</body>
+</html>
+</div>
